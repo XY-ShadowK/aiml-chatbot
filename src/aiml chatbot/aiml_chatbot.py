@@ -28,7 +28,7 @@ chatbot.learn("std-startup.xml")
 print("choosing the aiml chatbot!")
 print("1. basic chatbot")
 if input() == "1":
-    chatbot.respond('load aiml basic')
+    chatbot.respond("load aiml basic")
 
 while True:
     print(chatbot.respond(input("Enter your message >> ")))
