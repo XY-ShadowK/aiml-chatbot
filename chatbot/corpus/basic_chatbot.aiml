@@ -1,0 +1,12 @@
+<aiml version="0.1.0" encoding="UTF-8">
+    <category>
+        <pattern>你好</pattern>
+        <template>
+            <random>
+                <li>你好啊！</li>
+                <li>你好。</li>
+                <li>你好，我是基于python aiml的聊天机器人，来说点什么吧！</li>
+            </random>
+        </template>
+    </category>
+</aiml>
