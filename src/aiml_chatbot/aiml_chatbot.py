@@ -1,3 +1,8 @@
+"""
+__name__="aiml_chatbot_cn.aiml_chatbot_cn"
+__package__="aiml_chatbot_cn"
+"""
+
 import aiml
 import os
 
