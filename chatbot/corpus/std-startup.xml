@@ -1,10 +1,6 @@
 <aiml version="0.1.0" encoding="UTF-8">
     <category>
-        <pattern>fk</pattern>
-        <template>fuck you!</template>
-    </category>
-    <category>
-        <pattern>load aiml basic</pattern>
+        <pattern>LOAD AIML BASIC</pattern>
         <template>
             fk!
             <learn>basic_chatbot.aiml</learn>
