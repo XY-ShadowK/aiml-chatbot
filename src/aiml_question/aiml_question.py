@@ -1,7 +1,7 @@
 import aiml
 import os
 
-question_path='../chatbot/corpus'
+question_path='../../chatbot/corpus'
 os.chdir(question_path)
 
 question=aiml.Kernel()
@@ -16,6 +16,7 @@ often=0
 
 while i<=14 :
     print(question.respond("QUESTION "+str(i)))
+    print("A. 从不\nB. 偶尔（每周几次）\nC. 经常（几乎每天出现)\n")
     tempStr=input()
     if tempStr=="A" :
         never+=1
@@ -24,6 +25,7 @@ while i<=14 :
     if tempStr=="C" :
         often+=1
         score+=2
+    i+=1
 
 if score>=14 and never<3 and often>=6 :
     print("您的孩子得分为"+str(score)+",可能为自闭症，分数越高可能性越大")
